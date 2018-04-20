@@ -5,11 +5,9 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     [Security.Principal.WindowsBuiltInRole] "Administrator"))
 
 {
-
     Write-Warning "You do not have Administrator rights to run this script!`n `n Please re-run this script as an Administrator!"
 
     Break
-
 }
 
 # Request Asset tag from User /#
@@ -18,8 +16,7 @@ $AssetTag = Read-Host "Please enter the asset tag you wish to backup."
 
 # use the entered Asset tag to scan for profiles in the c:\users directory /#
 
-
-$users = (get-childitem C:\Users).Name
+$users = (get-childitem \\$AssetTag\C$\Users).Name
 $important = @()
 # popup that lists the found usernames /#
 
@@ -37,14 +34,6 @@ $UserName = Read-Host "Please enter the username that you want to backup"
 
 #/ Begin backup using USMT Scanstate.exe /#
 
-$USMT = {
-    Param(
-    $AssetTag,
-    $UserName
-    )
-    $Scanstate= '\\892cdp01\UserData\USMT
-
-}
-
+Start-Process cmd.exe -ArgumentList "/k c:\backup\ScanState.exe \\892cdp01\UserData\USMT\$AssetTag /ue:*\* /ui:SCP_CORPORATE\$UserName /vsc /v:5 /l:\\892cdp01\UserData\USMT\$AssetTag\ScanState.log /progress:\\892cdp01\UserData\USMT\$AssetTag\ScanStateProgress.log /i:wnb.xml /i:migdocs.xml /i:migapp.xml /i:Printers_Shares.xml /i:Mig_Exclusions.xml /i:Mig_Chrome.xml /i:Mig_Outlook.xml /i:MigBackground.xml /c"
 
 
