@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/Mig_Exclusions">
+  <!-- This component Excludes Everything in the following file Directories regardless of extension-->
+  <component type="Documents" context="UserAndSystem">
+    <displayName _locID="miguser.sharedvideo">MP3 Files</displayName>
+    <role role="Data">
+      <rules>
+        <exclude>
+          <objectSet>
+            <pattern type="File"> C:\CRMInstall\* [*]</pattern>
+            <pattern type="File"> C:\ProgramData\Microsoft\Windows Defender* [*]</pattern>
+            <pattern type="File"> C:\Users\Public\* [*]</pattern>
+            <pattern type="File"> C:\Users\Defaultuser0\* [*]</pattern>
+            <pattern type="File"> C:\Users\ITAdmin\* [*]</pattern>
+            <pattern type="File"> C:\Windows\Media\* [*]</pattern>
+          </objectSet>
+        </exclude>
+      </rules>
+    </role>
+  </component>
+</migration>

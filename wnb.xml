@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/WNB">
+
+    <!--WNB.xml is basically a customized version of MigUser.xml -->
+
+    <_locDefinition>
+
+        <_locDefault _loc="locNone"></_locDefault>
+
+        <_locTag _loc="locData">displayName</_locTag>
+
+    </_locDefinition>
+
+    
+
+    <!-- This component EXCLUDES the following User specific stuff-->
+
+    <component type="System" context="user">
+
+        <displayName _locID="miguser.User_Exclusions">User Exclusions</displayName>
+
+        <role role="Data">
+
+            <rules>
+
+                <unconditionalExclude>
+
+                    <objectSet>
+
+                        
+
+                    <!-- exclude blank links on the desktop-->    
+
+                    <pattern type="File">%CSIDL_DESKTOP%\* [*.msi]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOP%\* [*.exe]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOP%\* [*.lnk]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOP%\* [*.lnk2]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOPDIRECTORY%\* [*.msi]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOPDIRECTORY%\* [*.exe]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOPDIRECTORY%\* [*.lnk]</pattern>
+
+                    <pattern type="File">%CSIDL_DESKTOPDIRECTORY%\* [*.lnk2]</pattern>
+
+                
+
+              
+
+                    
+
+                    <pattern type="File">%CSIDL_DEFAULT_DESKTOP%\* [*.msi]</pattern>
+
+                    <pattern type="File">%CSIDL_DEFAULT_DESKTOP%\* [*.exe]</pattern>
+
+                    <pattern type="File">%CSIDL_DEFAULT_DESKTOP%\* [*.lnk]</pattern>
+
+                    <pattern type="File">%CSIDL_DEFAULT_DESKTOP%\* [*.lnk2]</pattern>
+
+                                                    
+
+                
+
+                    <pattern type="File">%CSIDL_DEFAULT_PROGRAMS%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_DEFAULT_STARTMENU%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_DEFAULT_STARTUP%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_PROGRAMS%\* [*]</pattern>                            
+
+                    <pattern type="File">%CSIDL_STARTMENU%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_STARTUP%\* [*]</pattern>
+
+                    </objectSet>
+
+                </unconditionalExclude>
+
+            </rules>
+
+        </role>
+
+    </component>
+
+    <!-- This component EXCLUDES the following shared User specific stuff-->
+
+    <component type="System" context="System">
+
+        <displayName _locID="miguser.Shared_User_Exclusions">Shared User Exclusions</displayName>
+
+        <role role="Data">
+
+            <rules>
+
+                <unconditionalExclude>
+
+                    <objectSet>
+
+                        
+
+                  
+
+                    <pattern type="File">%CSIDL_COMMON_DESKTOPDIRECTORY%\* [*.msi]</pattern>
+
+                    <pattern type="File">%CSIDL_COMMON_DESKTOPDIRECTORY%\* [*.exe]</pattern>
+
+                    <pattern type="File">%CSIDL_COMMON_DESKTOPDIRECTORY%\* [*.lnk]</pattern>
+
+                    <pattern type="File">%CSIDL_COMMON_DESKTOPDIRECTORY%\* [*.lnk2]</pattern>
+
+                    
+
+                 
+
+                                                    
+
+                    <pattern type="File">%CSIDL_COMMON_PROGRAMS%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_COMMON_STARTMENU%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_COMMON_STARTUP%\* [*]</pattern>
+
+                   
+
+                    <pattern type="File">%CSIDL_PROGRAMS%\* [*]</pattern>                            
+
+                    <pattern type="File">%CSIDL_STARTMENU%\* [*]</pattern>
+
+                    <pattern type="File">%CSIDL_STARTUP%\* [*]</pattern>
+
+                    </objectSet>
+
+                </unconditionalExclude>
+
+            </rules>
+
+        </role>
+
+    </component>
+
+</migration>

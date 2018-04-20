@@ -1,0 +1,103 @@
+﻿2018-04-20 09:26:17, Info                  [0x000000] SCANSTATE.EXE Version 10.0.10586.0[gle=0x000000b7]
+2018-04-20 09:26:17, Info                  [0x000000] USMT Started at 2018/04/20:09:26:17.306
+2018-04-20 09:26:17, Info                  [0x000000] Command line: C:\backup\scanstate.exe /genconfig:Config.XML /i:wnb.xml /i:migdocs.xml /i:migapp.xml /i:Printers_Shares.xml /i:Mig_Exclusions.xml /i:Mig_Chrome.xml /i:Mig_Outlook.xml /i:MigBackground.xml
+2018-04-20 09:26:17, Info                  [0x000000] Starting the migration process
+2018-04-20 09:26:20, Info                  [0x000000] Host system information:
+                                   OS version: 10.0.16299
+                                   Architecture: x64
+                                   Manufacturer: HP
+                                   Model : HP EliteBook 850 G4
+                                   AoAc (connected standby) : No
+                                   BIOS name : P78 Ver. 01.05
+                                   BIOS version : P78 Ver. 01.05
+                                   BIOS release date : 20170524000000.000000+000
+                                   Total memory : 17179869184
+                                   Processor manufacturer : GenuineIntel
+                                   Processor name : Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+                                   Processor caption : Intel64 Family 6 Model 142 Stepping 9
+                                   Processor architecture : (null)
+                                   Processor clock : 2904
+
+2018-04-20 09:26:20, Info                  [0x000000] System information:
+                                   Computer name: POOL015790
+                                   Machine SID: S-1-5-21-1664411440-2751747463-1218718902
+                                   OS version: 10.0.16299
+                                   Language: en-US
+                                   Architecture: 64-bit
+
+                                   Drives:
+                                     C: Type: Fixed, Bus type: NVMe, Hotplug: No
+
+                                   Users:
+                                     POOL015790\$BarTender_Security$, administrator: No, interactive: No, logged on: No, has profile: No
+                                     POOL015790\ITAdmin, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     SCP_CORPORATE\T836, administrator: No, interactive: Yes, logged on: Yes, has profile: Yes
+                                     POOL015790\WDAGUtilityAccount, administrator: No, interactive: No, logged on: No, has profile: No
+                                     POOL015790\Guest, administrator: No, interactive: Yes, logged on: No, has profile: No
+                                     POOL015790\DefaultAccount, administrator: No, interactive: No, logged on: No, has profile: No
+
+
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\wnb.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\migdocs.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\migapp.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\Printers_Shares.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\Mig_Exclusions.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\Mig_Chrome.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\Mig_Outlook.xml
+2018-04-20 09:26:20, Info                  [0x000000] Script file specified: C:\backup\MigBackground.xml
+2018-04-20 09:26:31, Info                  [0x000000] Examining the system to discover the migration units
+
+﻿2018-04-20 09:26:36, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/WindowsSearchEngine
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-SystemMaintenanceService
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Rights-Management-Client-v1-API
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-mmsys
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-X509CertificateEnrollment
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Identity-Foundation-Migration
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Shell-Sounds
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MSMPEG2VDEC
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MFSrcSnk
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-eudcedit
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-sysdm
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-WinMDE
+2018-04-20 09:26:37, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MFMPEG2SrcSnk
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:37, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:38, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Windows Live Mail [Store Root] is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Works\9.0\Common\Templates [TemplateDirectory] is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\14.0\OneNote\General [CachePath] is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\15.0\OneNote\General [CachePath] is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Control Panel\Desktop is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Control Panel\Desktop is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Printers is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Printers is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Network is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Network is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Network is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_USERS\Printers\Connections is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HK_Users\Printers\Settings is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2018-04-20 09:26:39, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2018-04-20 09:27:05, Info                  [0x000000] Producing the configuration file C:\backup\Config.XML
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Error                 [0x000000] Unreleased mig unit navigator interface during user release
+2018-04-20 09:27:05, Info                  [0x000000] Success.[gle=0x00000091]
+2018-04-20 09:27:05, Info                  [0x000000] USMT Completed at 2018/04/20:09:27:05.294[gle=0x00000091]
+2018-04-20 09:27:05, Info                  [0x000000] ----------------------------------- USMT ERROR SUMMARY -----------------------------------
+2018-04-20 09:27:05, Info                  [0x000000] No error in migration process is recorded.

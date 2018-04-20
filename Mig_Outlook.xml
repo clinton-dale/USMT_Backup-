@@ -1,0 +1,17 @@
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/test">
+<component type="Documents" context="System">
+  <displayName>Migrate outlook: Signature, personal dictionary, autocorrect, templates</displayName>
+  <role role="Data">
+    <rules>
+         <include>
+            <objectSet>
+         <script>MigXmlHelper.GenerateDrivePatterns ("*\AppData\Roaming\Microsoft\Signatures\* [*] ", "Fixed")</script>            
+         <script>MigXmlHelper.GenerateDrivePatterns ("*\AppData\Roaming\Microsoft\Templates\* [*] ", "Fixed")</script>          
+		 <script>MigXmlHelper.GenerateDrivePatterns ("*\AppData\Roaming\Microsoft\UProof\* [*] ", "Fixed")</script>        
+		 <script>MigXmlHelper.GenerateDrivePatterns ("*\AppData\Roaming\Microsoft\Office\* [*] ", "Fixed")</script> 
+       </objectSet>
+          </include>
+    </rules>
+  </role>
+</component>
+</migration>

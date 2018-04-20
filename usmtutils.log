@@ -1,0 +1,5 @@
+﻿2018-04-18 11:24:54, Info                  [0x000000] USMT Started at 2018/04/18:11:24:54.590[gle=0x000000b7]
+2018-04-18 11:24:54, Info                  [0x000000] Command line: C:\temp\usmt\usmtutils.exe /extract C:\Temp\extractedUSMT\usmt.mig c:\temp\usmt\extractedusmt[gle=0x000000b7]
+2018-04-18 11:24:54, Info                  [0x000000] USMTUTILS.EXE Version 10.0.10586.0[gle=0x000000b7]
+2018-04-18 11:25:58, Info                  [0x000000] UsmtUtils return code: 0
+2018-04-18 11:25:58, Info                  [0x000000] USMT Completed at 2018/04/18:11:25:58.739

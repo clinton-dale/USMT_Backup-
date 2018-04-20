@@ -1,0 +1,1 @@
+﻿Scanstate.exe /genconfig:Config.XML /i:wnb.xml /i:migdocs.xml /i:migapp.xml /i:Printers_Shares.xml /i:Mig_Exclusions.xml /i:Mig_Chrome.xml /i:Mig_Outlook.xml /i:MigBackground.xml

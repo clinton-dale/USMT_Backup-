@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/Mig_Background">
+  <!-- Component to Migrate the HKey_Users Control Panel Desktop -->
+  <component type="Application" context="System">
+    <displayName>Component to migrate current background setting</displayName>
+    <role role="Settings">
+      <rules>
+        <include>
+          <objectSet>
+            <pattern type="Registry">HK_USERS\Control Panel\Desktop\* [*]</pattern>
+          </objectSet>
+        </include>
+      </rules>
+    </role>
+  </component>
+ <!--Componet to Migrate the Default Background Folder from Windows 10-->
+  <component type="Documents" context="System">
+    <displayName>Component to migrate all Desktop Pictures stored in c:\windows\web\wallpaper</displayName>
+    <role role="Data">
+      <rules>
+        <include>
+          <objectSet>
+            <pattern type="File">C:\Windows\Web\Wallpaper\* [*]</pattern>
+            <pattern type="File">C:\Users\*\AppData\Roaming\Microsoft\Internet Explorer\* [*]</pattern>
+          </objectSet>
+        </include>
+      </rules>
+    </role>
+  </component>
+</migration>
