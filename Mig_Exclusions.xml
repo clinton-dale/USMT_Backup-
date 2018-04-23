@@ -13,7 +13,10 @@
             <pattern type="File"> C:\Users\Defaultuser0\* [*]</pattern>
             <pattern type="File"> C:\Users\ITAdmin\* [*]</pattern>
             <pattern type="File"> C:\Windows\Media\* [*]</pattern>
-            <pattern type="File"> C:\Office*\* [*]</pattern>
+            <pattern type="File"> C:\Office 2016 365\* [*]</pattern>
+            <pattern type="File"> C:\PAx\* [*]</pattern>
+            <pattern type="File"> C:\PAX\* [*]</pattern>
+            <pattern type="File"> C:\sw\* [*]</pattern>
           </objectSet>
         </exclude>
       </rules>
