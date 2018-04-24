@@ -540,6 +540,8 @@
                         <script>MigXmlHelper.GenerateDrivePatterns ("\Program Files\* [*]", "Fixed")</script>
                         <script>MigXmlHelper.GenerateDrivePatterns ("\Winnt\* [*]", "Fixed")</script>
                         <script>MigXmlHelper.GenerateDrivePatterns ("\Windows\* [*]", "Fixed")</script>
+                        <script>MigXmlHelper.GenerateDrivePatterns ("\PAx\* [*]", "Fixed")</script>
+                        <script>MigXmlHelper.GenerateDrivePatterns ("\Office 2016 365\* [*]", "Fixed")</script>
                     </objectSet>
                 </exclude>
             </rules>

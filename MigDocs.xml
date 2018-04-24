@@ -84,5 +84,30 @@
       </rules>
     </role>
   </component>
+    <component type="Documents" context="UserAndSystem" id="Documents">
+    <displayName>Exclude Files and Folders</displayName>
+    <role role="Data">
+      <rules>
+        <exclude>
+          <objectSet />
+        </exclude>
+        <unconditionalExclude>
+          <objectSet>
+              <pattern type="File">c:\sw\*[*]</pattern>
+              <pattern type="File">c:\pax\*[*]</pattern>
+              <pattern type="File">c:\pax pre-req\*[*]</pattern>
+              <pattern type="File">c:\intel\*[*]</pattern>
+              <pattern type="File">c:\office 2016 365\*[*]</pattern>
+              <pattern type="File"> C:\CRMInstall\* [*]</pattern>
+              <pattern type="File"> C:\ProgramData\Microsoft\Windows Defender* [*]</pattern>
+              <pattern type="File"> C:\Users\Public\* [*]</pattern>
+              <pattern type="File"> C:\Users\Defaultuser0\* [*]</pattern>
+              <pattern type="File"> C:\Users\ITAdmin\* [*]</pattern>
+              <pattern type="File"> C:\Windows\Media\* [*]</pattern>
+          </objectSet>
+        </unconditionalExclude>
+      </rules>
+    </role>
+  </component>
 </migration>
 
